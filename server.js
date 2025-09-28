@@ -4,7 +4,7 @@ const PORT = 8000;
 
 
 app.get('/hello', (req, res) => {
-  res.json({ message: "Hello, Elif!" }); // Buraya kendi adını yaz
+  res.json({ message: "Hello Elif!" });
 });
 
 app.listen(PORT, () => {
